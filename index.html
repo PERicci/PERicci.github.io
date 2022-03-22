@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS/Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="64x64"
+      href="assets/favicon/favicon-64x64.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <title>Pedro Ricciardi Portfolio Website</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="nav" class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        <span>Hello, I'm</span><strong>Pedro Ricciardi</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+      <img
+        src="assets/me/me.jpeg"
+        class="intro__img"
+        alt="a picture of Pedro Ricciardi"
+      />
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2 class="section__title section__title--skills">Skills</h2>
+
+      <div class="skill-set">
+        <div class="skill">
+          <img
+            class="skill__img"
+            src="assets/icons/logic.png"
+            alt="logic icon"
+          />
+          <p>Algorithm & Logical thinking</p>
+        </div>
+
+        <div class="skill">
+          <img
+            class="skill__img"
+            src="assets/icons/reactts.png"
+            alt="React and TypeScript icon"
+          />
+          <p>JavaScript, TypeScript & React</p>
+        </div>
+
+        <div class="skill">
+          <img
+            class="skill__img"
+            src="assets/icons/clean.png"
+            alt="clean code icon"
+          />
+          <p>Clean and reliable code</p>
+        </div>
+
+        <div class="skill">
+          <img
+            class="skill__img"
+            src="assets/icons/speak.png"
+            alt="languages icon"
+          />
+          <p>English, Spanish & Portuguese</p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About me</h2>
+
+      <p class="section__subtitle section__subtitle--about">
+        Web Developer based in Portugal
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          After a career in education as a physics, mathematics and robotics
+          teacher and in industry as a brand designer, I have recently decided
+          to dedicate time to study and develop a career in the tech industry.
+        </p>
+
+        <p>
+          My experience so far has mainly been working in front-end development,
+          however I am also interested in developing my skills further in
+          back-end and database. I have excellent logical thinking and enjoy
+          making functional and engaging web applications. My life as an Exact
+          Sciences teacher provided me with a methodical vision of processes,
+          always attentive to its causes and consequences.
+        </p>
+      </div>
+
+      <img
+        src="assets/me/me-park.jpeg"
+        class="about-me__img"
+        alt="a picture of Pedro Ricciardi"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of things that I've built so far
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <div class="portfolio__item">
+          <p>Expenses List</p>
+
+          <div class="portfolio__item-content">
+            <img
+              class="portfolio__item-img"
+              src="assets/projects/expenses.png"
+              alt=""
+            />
+
+            <div class="portfolio__item-description">
+              <p>
+                My first React project with hooks (useState). A list that you
+                can register your expenses with monthly expense chart.
+              </p>
+
+              <div class="portfolio__item-links">
+                <a
+                  href="https://github.com/PERicci/expenses_list"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Project</a
+                >
+
+                <a
+                  href="https://pericci.github.io/expenses_list/"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio item 02 -->
+        <div class="portfolio__item">
+          <p>Oficina do Cérebro</p>
+
+          <div class="portfolio__item-content">
+            <img
+              class="portfolio__item-img"
+              src="assets/projects/brainworkshop.png"
+              alt=""
+            />
+
+            <div class="portfolio__item-description">
+              <p>
+                Frontend of a charitable educational project carried out during
+                the pandemic.<br />Using Bulma framework.
+              </p>
+
+              <div class="portfolio__item-links">
+                <a
+                  href="https://github.com/PERicci/Oficina_do_Cerebro_FE"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Project</a
+                >
+
+                <a
+                  href="https://pericci.github.io/Oficina_do_Cerebro_FE/"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio item 03 -->
+        <div class="portfolio__item">
+          <p>Pending Tasks</p>
+
+          <div class="portfolio__item-content">
+            <img
+              class="portfolio__item-img"
+              src="assets/projects/tasks.png"
+              alt=""
+            />
+
+            <div class="portfolio__item-description">
+              <p>
+                To do list that you can add and remove tasks.<br />Using
+                localStorage to store the tasks.
+              </p>
+
+              <div class="portfolio__item-links">
+                <a
+                  href="https://github.com/PERicci/Lista"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Project</a
+                >
+
+                <a
+                  href="https://pericci.github.io/Lista/"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio item 04 -->
+        <div class="portfolio__item">
+          <p>Survey Form</p>
+
+          <div class="portfolio__item-content">
+            <img
+              class="portfolio__item-img"
+              src="assets/projects/vimto.png"
+              alt=""
+            />
+
+            <div class="portfolio__item-description">
+              <p>
+                A fake form for Vimto costumers. Responsive design which aims
+                accessibility.
+              </p>
+
+              <div class="portfolio__item-links">
+                <a
+                  href="https://github.com/PERicci/FCC-1-2-Survey_Form"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Project</a
+                >
+
+                <a
+                  href="https://pericci.github.io/FCC-1-2-Survey_Form/"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio item 05 -->
+        <div class="portfolio__item">
+          <p>Landing Page</p>
+
+          <div class="portfolio__item-content">
+            <img
+              class="portfolio__item-img"
+              src="assets/projects/landingpage.png"
+              alt=""
+            />
+
+            <div class="portfolio__item-description">
+              <p>
+                A spaceship brand Landing Page. Bold and responsive design with
+                CSS animations.
+              </p>
+
+              <div class="portfolio__item-links">
+                <a
+                  href="https://github.com/PERicci/FCC-1-3-Product_Landing_Page"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Project</a
+                >
+
+                <a
+                  href="https://pericci.github.io/FCC-1-3-Product_Landing_Page/"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio item 06 -->
+        <div class="portfolio__item">
+          <p>Tribute Page</p>
+
+          <div class="portfolio__item-content">
+            <img
+              class="portfolio__item-img"
+              src="assets/projects/tesla.png"
+              alt=""
+            />
+
+            <div class="portfolio__item-description">
+              <p>
+                Nikola Tesla's tribute page. Clean design with CSS light effect
+                while open the page.
+              </p>
+
+              <div class="portfolio__item-links">
+                <a
+                  href="https://github.com/PERicci/FCC-1-1-Tribute_Page"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Project</a
+                >
+
+                <a
+                  href="https://pericci.github.io/FCC-1-1-Tribute_Page/"
+                  class="portfolio__item"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <!-- Email -->
+      <a href="mailto:riccip@outlook.com" class="footer__link">
+        riccip@outlook.com
+      </a>
+
+      <ul class="social-list">
+        <!-- LinkedIn -->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/pedro-eugenio-ricciardi-a356a2219/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+
+        <!-- GitHub -->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/PERicci"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
