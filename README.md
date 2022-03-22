@@ -6,7 +6,7 @@
 '
 - :atom_symbol: Currently studying **React - The Complete Guide (incl Hooks, React Router, Redux) by Maximilian Schwarzmüller**
 
-- :speech_balloon: Proficient in Spanish, Portuguese and English
+- :speech_balloon: Proficient in English, Spanish and Portuguese
 
 - :necktie: Open to new job opportunities
 
