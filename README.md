@@ -23,7 +23,7 @@
 [![mail](./assets/github/mail.png)][3]
 
 [1]: https://PERicci.github.io/
-[2]: https://www.linkedin.com/in/pedro-eugenio-ricciardi-a356a2219/
+[2]: https://www.linkedin.com/in/pedro-ricciardi/
 [3]: mailto:riccip@hotmail.com
 
 <br>
