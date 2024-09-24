@@ -7,5 +7,11 @@
     "server": "npm --prefix server start",
     "client": "npm --prefix client run dev",
     "build": "npm --prefix client run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
   }
 }
