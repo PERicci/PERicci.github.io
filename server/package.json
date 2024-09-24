@@ -2,9 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Server for the portfolio project",
-  "main": "index.js",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --watch server.js"
   },
   "keywords": [],
   "author": "",
