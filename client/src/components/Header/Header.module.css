@@ -1,0 +1,40 @@
+.header {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.header__logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 60px;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__link {
+  color: #333;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #002955;
+}
