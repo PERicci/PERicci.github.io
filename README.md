@@ -3,7 +3,7 @@
 <img src="./assets/github/wave2.gif" width="30px"> Hello everyone, this is my [portfolio website](https://PERicci.github.io/)!
 
 - :mortar_board: Licentiate degree in Physics
-'
+
 - :atom_symbol: Currently studying **Next.js and TypeScript**
 
 - :speech_balloon: Proficient in English, Spanish and Portuguese
