@@ -18,7 +18,7 @@
 
 #### How to reach me:
 
-[![portfolio](./assets/github/portfolio120.png)][1]
+[![portfolio](./assets/github/portfolio60.png)][1]
 [![linkedin](./assets/github/linkedin.png)][2]
 [![mail](./assets/github/mail.png)][3]
 
