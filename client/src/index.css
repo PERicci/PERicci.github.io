@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #242424;
   background-color: #242424;
 
   font-synthesis: none;
@@ -13,13 +13,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+div,
+button,
+header,
+main,
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 a {
+  line-height: 0.5rem;
   font-weight: 500;
   color: #1d2839;
   text-decoration: inherit;
   filter: brightness(1);
   transition: all 0.3s ease-in-out;
 }
+
 a:hover {
   filter: brightness(2) saturate(2);
   transition: all 0.3s ease-in-out;
@@ -40,10 +58,12 @@ h1 {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #00033f;
+    color: #c2c2c2;
     background-color: #ffffff;
   }
+
   a:hover {
-    color: #3f0000;
+    filter: brightness(2) saturate(2);
+    transition: all 0.3s ease-in-out;
   }
 }
