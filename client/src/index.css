@@ -35,12 +35,12 @@ a {
   color: #1d2839;
   text-decoration: inherit;
   filter: brightness(1);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
   filter: brightness(2) saturate(2);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 body {
